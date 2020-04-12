@@ -5,3 +5,5 @@ python:
 
 script:
   - tox 
+install:
+  - pip install -r travis.txt
